@@ -1,18 +1,32 @@
-# task1
-# python_task
-in this task we have made a cli based atm machine there are two major modeules of this system:
-1. User Panel
-2. Admin Panel
+## Console Based File Handling in Python.
+## Setup Project
 
-On the start of program it requries pin 
-=> To access the admin panel you have to enter '****'
-=> To access user panel enter the pin 
+1. Clone the project using following command
+```
+git clone https://github.com/AMOIZ0866/Console-Based-File-Handling.git
+```
 
-Admin Panel:
-Admin can create account with unique name and cnic (it will autotamically alot 0000 pin to user)
-Admin can check the details and perfroms further fucntion mentioned in the menu
+2. Make sure you have python 3 installed in your system
 
-User Panel:
- if the user is new he/she will enter 0000 as pin then it will ask the cnic number and account number from the user for confrimation of account and ask user to update the pin
- (Pin is encrypted by using the from cryptography.fernet package)
- user can also perform all the functions in the main
+
+
+## Run Test Cases
+- User Panel:
+  If the user is new he/she will enter 0000 as pin then it will ask the cnic number and account number from the user for confrimation of account and ask user to   
+  update the pin(Pin is encrypted by using the from cryptography.fernet package)user can also perform all the functions in the main.
+
+- Admin Panel:
+  Admin can create account with unique name and cnic (it will autotamically alot 0000 pin to user)Admin can check the details and perfroms further fucntion 
+  mentioned in the menu
+
+## Git Branching Structure
+- Default latest branch is **Staging**
+- Dev branching naming structure is based on **Jira Ticket No**.
+- Every task branch finally merged in Staging upon completion/review.
+- **Hot Fix** branches are merged directly in staging upon lead approval.
+
+## How to deploy new changes
+- Create a new branch from **Staging** branch
+- Update the codebase according to the change-set required
+- Create a **Pull Request** with **Staging** branch
+- Review & Merge that PR
