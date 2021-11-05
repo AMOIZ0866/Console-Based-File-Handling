@@ -1,6 +1,7 @@
 ## Console Based File Handling in Python.
 ## Setup Project
 
+
 1. Clone the project using following command
 ```
 git clone https://github.com/AMOIZ0866/Console-Based-File-Handling.git
